@@ -1,0 +1,5 @@
+---
+- name: Rust
+  homebrew:
+    name:
+      - rustup-init

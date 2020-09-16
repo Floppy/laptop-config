@@ -1,4 +1,8 @@
 ---
 - hosts: localhost
   roles:
-    - development
+    - terminal
+    - ruby
+    - nodejs
+    - rust
+    - go

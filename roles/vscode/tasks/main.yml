@@ -1,0 +1,15 @@
+---
+- name: Tap fonts
+  homebrew_tap:
+    name: homebrew/cask-fonts
+
+- name: Fira Code
+  homebrew_cask:
+    name: '{{ item }}'
+  with_items:
+    - font-fira-code
+    - font-fira-code-nerd-font
+
+- name: Visual Studio Code
+  homebrew_cask:
+    name: visual-studio-code

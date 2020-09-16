@@ -1,0 +1,6 @@
+---
+- name: Node.js
+  homebrew:
+    name:
+      - nvm
+      - yarn

@@ -1,29 +1,16 @@
 ---
-- name: Ruby
-  homebrew:
-    name: rbenv,ruby-build,rbenv-default-gems
-- name: Node.js
-  homebrew:
-    name: nvm,yarn
-- name: Git
-  homebrew:
-    name: git,git-crypt,git-flow,git-absorb,grdl/tap/git-get
-- name: Rust
-  homebrew:
-    name: rustup-init
-- name: Go
-  homebrew:
-    name: go
-
-- name: Fira Code
+- name: iTerm2
   homebrew_cask:
-    name: font-fira-code,font-fira-code-nerd-font
-- name: Visual Studio Code
-  homebrew_cask:
-    name: visual-studio-code
+    name:
+      - iterm2
+
+- name: Starship command prompt
+  homebrew:
+    name:
+      - starship
 
 
-# cask "iterm2"
+
 # cask "firefox"
 # cask "google-chrome"
 # cask "postman"
@@ -53,7 +40,6 @@
 # brew "vale"
 # brew "hexedit"
 # cask "ngrok"
-# brew "starship"
 # tap "nektos/tap"
 # brew "nektos/tap/act"
 # cask "graphql-playground"

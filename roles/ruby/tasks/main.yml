@@ -1,0 +1,7 @@
+---
+- name: Ruby
+  homebrew:
+    name:
+      - rbenv
+      - ruby-build
+      - rbenv-default-gems

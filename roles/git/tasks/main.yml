@@ -1,0 +1,9 @@
+---
+- name: Git
+  homebrew:
+    name:
+      - git
+      - git-crypt
+      - git-flow
+      - git-absorb
+      - grdl/tap/git-get
