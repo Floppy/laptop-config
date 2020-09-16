@@ -1,0 +1,59 @@
+---
+- name: Ruby
+  homebrew:
+    name: rbenv,ruby-build,rbenv-default-gems
+- name: Node.js
+  homebrew:
+    name: nvm,yarn
+- name: Git
+  homebrew:
+    name: git,git-crypt,git-flow,git-absorb,grdl/tap/git-get
+- name: Rust
+  homebrew:
+    name: rustup-init
+- name: Go
+  homebrew:
+    name: go
+
+- name: Fira Code
+  homebrew_cask:
+    name: font-fira-code,font-fira-code-nerd-font
+- name: Visual Studio Code
+  homebrew_cask:
+    name: visual-studio-code
+
+
+# cask "iterm2"
+# cask "firefox"
+# cask "google-chrome"
+# cask "postman"
+# cask "docker"
+# brew "postgresql"
+# brew "composer"
+# brew "plantuml"
+# cask "Dash"
+# brew "mysql"
+# brew "redis"
+# brew "ripgrep"
+# brew "siege"
+# brew "terraform"
+# brew "tflint"
+# brew "ansible"
+# brew "ansible-lint"
+# tap "heroku/brew"
+# brew "heroku/brew/heroku"
+# brew "heroku/brew/heroku-node" # manually specified to help cleanup
+# brew "pipenv"
+# cask "adoptopenjdk"
+# brew "yamllint"
+# brew "exercism"
+# cask "virtualbox"
+# cask "vagrant"
+# cask "gcollazo-mongodb"
+# brew "vale"
+# brew "hexedit"
+# cask "ngrok"
+# brew "starship"
+# tap "nektos/tap"
+# brew "nektos/tap/act"
+# cask "graphql-playground"
