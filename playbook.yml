@@ -6,3 +6,7 @@
     - nodejs
     - rust
     - go
+    - php
+    - python
+    - ansible
+    - terraform

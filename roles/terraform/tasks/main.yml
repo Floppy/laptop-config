@@ -1,0 +1,6 @@
+---
+- name: Terraform
+  homebrew:
+    name:
+      - terraform
+      - tflint

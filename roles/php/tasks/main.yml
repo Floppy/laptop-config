@@ -1,0 +1,5 @@
+---
+- name: PHP
+  homebrew:
+    name:
+      - composer

@@ -1,0 +1,6 @@
+---
+- name: Ansible
+  homebrew:
+    name:
+      - ansible
+      - ansible-lint
